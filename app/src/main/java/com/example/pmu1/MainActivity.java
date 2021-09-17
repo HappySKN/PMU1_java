@@ -16,12 +16,24 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    /**
+     * Функция для получения максимального значения из двух переданных
+     * @param a Первое значение
+     * @param b Второе значение
+     * @return Возврат наибольшего значения
+     */
     public static int max(int a, int b)
     {
         if(a > b) return a;
         else return b;
     }
 
+    /**
+     * Функция для получения минимального значения из двух переданных
+     * @param a Первое значение
+     * @param b Второе значение
+     * @return Возврат наименьшего значения
+     */
     public static int min(int a, int b)
     {
         if(a < b) return a;
